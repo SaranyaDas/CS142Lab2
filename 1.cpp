@@ -91,7 +91,7 @@ class LinkedList {
         //Delete temp
          delete temp;
     }
-  //Deletion off particuar element
+  //Deletion of particuar element
     void deleteAt(int pos) {
         Node * current = head;
         for (int i = 1; i < pos - 1; i++) {
